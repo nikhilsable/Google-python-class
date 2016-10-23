@@ -1,7 +1,7 @@
 # Google-python-class
 Practice programs that I attempted from the google python class
 
-Functions in string1.py
+string1.py
 ----------------------
 
 #A. donuts
@@ -34,5 +34,32 @@ e.g.
    'mix', pod' -> 'pox mid'
    'dog', 'dinner' -> 'dig donner'
 Assume a and b are length 2 or more.
+
+---------------------------------------
+
+#wordcount.py
+
+1. For the --count flag, implement a print_words(filename) function that counts
+how often each word appears in the text and prints:
+word1 count1
+word2 count2
+...
+
+Print the above list in order sorted by word (python will sort punctuation to
+come before letters -- that's fine). Store all the words as lowercase,
+so 'The' and 'the' count as the same word.
+
+2. For the --topcount flag, implement a print_top(filename) which is similar
+to print_words() but which prints just the top 20 most common words sorted
+so the most common word is first, then the next most common, and so on.
+
+#Note:For the wordcount.py program, I've attached a companion txt file to work with it (small.txt). Please feel free to edit the small.txt file to your liking. Also, proper usage to invoke the command from terminal would be:
+
+./wordcount.py {--count | --topcount} file ,for ex: ./wordcount.py --count small.txt
+
+#list1.py and list2.py are another set of exercises by Google which I manged to solve as part of the intro. They were fun!
+
+Again, Thank you to Google for getting those awesome Pyhton videos a copuple of years back. 
+
 
 
