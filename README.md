@@ -53,11 +53,13 @@ so 'The' and 'the' count as the same word.
 to print_words() but which prints just the top 20 most common words sorted
 so the most common word is first, then the next most common, and so on.
 
-#Note:For the wordcount.py program, I've attached a companion txt file to work with it (small.txt). Please feel free to edit the small.txt file to your liking. Also, proper usage to invoke the command from terminal would be:
+#Note:
+For the wordcount.py program, I've attached a companion txt file to work with it (small.txt). Please feel free to edit the small.txt file to your liking. Also, proper usage to invoke the command from terminal would be:
 
 ./wordcount.py {--count | --topcount} file ,for ex: ./wordcount.py --count small.txt
 
-#list1.py and list2.py are another set of exercises by Google which I manged to solve as part of the intro. They were fun!
+#list1.py and list2.py
+These are another set of exercises by Google which I manged to solve as part of the intro. They were fun!
 
 Again, Thank you to Google for getting those awesome Pyhton videos a copuple of years back. 
 
